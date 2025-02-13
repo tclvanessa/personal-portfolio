@@ -9,10 +9,10 @@ import NotFound from "./pages/NotFound";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/personal-portfolio">
       <div className="min-h-screen bg-color-2">
         <Routes>
-          <Route path="/personal-portfolio" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
