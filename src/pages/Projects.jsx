@@ -84,25 +84,19 @@ const Projects = () => {
         "https://github.com/tclvanessa/Hebrew-Model-Character-Identification",
     },
     {
-      title: "Restricted Grep",
+      title: "Illinois Gerrymandering Analysis",
       description:
-        "A simplified, restricted version of grep (rgrep) supporting only a few regular operators to match pattern sets to identify specific files (e.g. . (period), + (plus sign), ? (question mark), \\ (backslash)).",
-      technologies: ["C"],
-      codeLink: "https://github.com/tclvanessa/Restricted-Grep",
+        "Used MCMC sampling with GerryChain to analyze redistricting fairness in Illinois by evaluating district plans with metrics like partisan bias, efficiency gap, and population balance.",
+      technologies: ["Python"],
+      codeLink:
+        "https://github.com/tclvanessa/Gerrymandering-Analysis-on-Illinois",
     },
     {
-      title: "Flight Skip Lists",
+      title: "Healthcare Form Agent",
       description:
-        "A skip list data structure enabling users to search a set list of flight times from one location to another city to provide possible options within a customizable time frame of the desired departure date and time.",
-      technologies: ["Java"],
-      codeLink: "https://github.com/tclvanessa/FlightSkipList",
-    },
-    {
-      title: "Prim/Kruskal's Minimal Spanning Tree (MST)",
-      description:
-        "GUI that displays a graph of cities on the U.S. map showing the MST of the shortest distance between specific cities to determine possible routes for an efficient railroad network.",
-      technologies: ["Java"],
-      codeLink: "https://github.com/tclvanessa/MinimalSpanningTree",
+        "An AI-powered automation tool using Playwright and LLMs to fill out medical forms based of a person's first and last name.",
+      technologies: ["Typescript", "Node.js"],
+      codeLink: "https://github.com/tclvanessa/healthcare-form-agent",
     },
     {
       title: "Duets.ai",
@@ -110,6 +104,13 @@ const Projects = () => {
         "An AI-powered language application that automatically transcribes your Zoom session with a language coach and generates personalized feedback and exercises based on the session on your lesson dashboard.",
       technologies: ["Python"],
       websiteLink: "https://duets.ai/",
+    },
+    {
+      title: "Restricted Grep",
+      description:
+        "A simplified, restricted version of grep (rgrep) supporting only a few regular operators to match pattern sets to identify specific files (e.g. . (period), + (plus sign), ? (question mark), \\ (backslash)).",
+      technologies: ["C"],
+      codeLink: "https://github.com/tclvanessa/Restricted-Grep",
     },
   ];
 
